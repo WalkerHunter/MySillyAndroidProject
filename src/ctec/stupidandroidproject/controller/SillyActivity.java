@@ -37,7 +37,7 @@ public class SillyActivity extends Activity
 
 	private void fillTheColorList()
 	{
-		// TODO Auto-generated method stub
+		colorList.add(R.color.uglyRed);
 		
 	}
 

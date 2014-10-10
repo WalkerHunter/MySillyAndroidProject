@@ -6,24 +6,22 @@
     android:background="@color/uglyRed"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <TextView
-        android:id="@+id/sillyTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="96dp"
-        android:layout_marginTop="86dp"
-        android:text="@string/songStuff"
-        android:textColor="@color/uglyGreen" />
-
     <Button
         android:id="@+id/firstButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
         android:text="@string/funText" />
+
+    <TextView
+        android:id="@+id/sillyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="@string/songStuff" />
 
 </RelativeLayout>
